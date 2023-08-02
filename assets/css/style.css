@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    color: #926239;
+    font-family: sans-serif;
+}
+
+header {
+    height: 900px;
+    background-color: rgb(245, 228, 214);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(./../images/beachshowcase.jpg);
+    padding: 0 20px;
+}
+
+h1 {
+    width: fit-content; /* Автоматично змінюємо ширину блоку відповідно до контенту */
+    margin: 0 auto;
+    font-size: 50px;
+    padding-top: 350px;
+}
+
+header p {
+    display: inline-block;
+    font-size: 20px;
+}
+
+a {
+    display: inline-block;
+    font-size: 18px;
+    color: inherit;
+    text-decoration: none;
+    border: #926239 1px solid;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.section-1,
+.section-2 {
+    padding: 20px;
+}
+
+.section-1, 
+.box-left,
+.box-right {
+    color: white;
+    background-color: #926239;
+}
+
+.section-3 {
+    font-size: 0;
+}
+
+.box-left,
+.box-middle,
+.box-right {
+    display: inline-block;
+    width: calc(100% / 3);
+    padding: 20px;
+}
